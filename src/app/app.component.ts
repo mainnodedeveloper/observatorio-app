@@ -12,7 +12,7 @@ import { MaterialModule } from './material.module';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
-  imports: [MaterialModule, Button ],
+  imports: [ MaterialModule ],
 })
 export class AppComponent {
   constructor(private appService: AppService) {
