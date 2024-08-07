@@ -2,10 +2,9 @@ import { Component } from '@angular/core';
 import { AppService } from './app.service';
 import { MaterialModule } from './material.module';
 
-import Button from 'bootstrap/js/dist/button';
-import Alert from 'bootstrap/js/dist/alert';
+//import Alert from 'bootstrap/js/dist/alert';
 
-import { Tooltip, Toast, Popover } from 'bootstrap';
+//import { Tooltip, Toast, Popover } from 'bootstrap';
 
 
 @Component({
