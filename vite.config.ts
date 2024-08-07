@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite';
 import { angular } from '@nitedani/vite-plugin-angular/plugin';
 
+import path from 'path';
+
 export default defineConfig({
   plugins: [angular()],
   root: path.resolve(__dirname, 'src'),
